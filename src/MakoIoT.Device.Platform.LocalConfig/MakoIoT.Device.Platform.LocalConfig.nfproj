@@ -57,8 +57,9 @@
     <Reference Include="MakoIoT.Device.Services.Mediator">
       <HintPath>..\..\packages\MakoIoT.Device.Services.Mediator.1.0.31.54540\lib\MakoIoT.Device.Services.Mediator.dll</HintPath>
     </Reference>
-    <Reference Include="MakoIoT.Device.Services.Server">
-      <HintPath>..\..\packages\MakoIoT.Device.Services.Server.1.0.33.42549\lib\MakoIoT.Device.Services.Server.dll</HintPath>
+    <Reference Include="MakoIoT.Device.Services.Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\packages\MakoIoT.Device.Services.Server.1.0.34.13996\lib\MakoIoT.Device.Services.Server.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="MakoIoT.Device.Services.WiFi">
       <HintPath>..\..\packages\MakoIoT.Device.Services.WiFi.1.0.35.20139\lib\MakoIoT.Device.Services.WiFi.dll</HintPath>
@@ -108,8 +109,9 @@
     <Reference Include="System.Net">
       <HintPath>..\..\packages\nanoFramework.System.Net.1.10.62\lib\System.Net.dll</HintPath>
     </Reference>
-    <Reference Include="System.Net.Http">
-      <HintPath>..\..\packages\nanoFramework.System.Net.Http.1.5.104\lib\System.Net.Http.dll</HintPath>
+    <Reference Include="System.Net.Http, Version=1.5.106.0, Culture=neutral, PublicKeyToken=c07d481e9758c731">
+      <HintPath>..\..\packages\nanoFramework.System.Net.Http.1.5.106\lib\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Threading">
       <HintPath>..\..\packages\nanoFramework.System.Threading.1.1.19\lib\System.Threading.dll</HintPath>
