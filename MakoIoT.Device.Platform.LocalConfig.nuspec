@@ -17,33 +17,33 @@
     <description>MAKO-IoT Platform local configuration library. On-device web server, WiFi AP</description>
     <tags>nanoFramework C# csharp netmf netnf mako-iot platform device configuration ap webserver</tags>
     <dependencies>
-      <dependency id="MakoIoT.Device.Platform.Interface" version="1.0.1.28390" />
-      <dependency id="MakoIoT.Device.Services.Configuration" version="1.0.31.51806" />
-      <dependency id="MakoIoT.Device.Services.Configuration.Metadata" version="1.0.30.32136" />
-      <dependency id="MakoIoT.Device.Services.ConfigurationManager" version="1.0.49.26365" />
-      <dependency id="MakoIoT.Device.Services.FileStorage" version="1.0.30.57507" />
-      <dependency id="MakoIoT.Device.Services.Interface" version="1.0.36.21434" />
-      <dependency id="MakoIoT.Device.Services.Mediator" version="1.0.31.54540" />
-      <dependency id="MakoIoT.Device.Services.Server" version="1.0.34.13996" />
-      <dependency id="MakoIoT.Device.Services.WiFi" version="1.0.35.20139" />
-      <dependency id="MakoIoT.Device.Services.WiFi.AP" version="1.0.36.4164" />
-      <dependency id="MakoIoT.Device.Utilities.Invoker" version="1.0.24.34787" />
-      <dependency id="MakoIoT.Device.Utilities.String" version="1.0.31.17475" />
-      <dependency id="nanoFramework.CoreLibrary" version="1.14.2" />
-      <dependency id="nanoFramework.DependencyInjection" version="1.1.1" />
-      <dependency id="nanoFramework.Iot.Device.DhcpServer" version="1.2.378" />
-      <dependency id="nanoFramework.Json" version="2.2.101" />
-      <dependency id="nanoFramework.Logging" version="1.1.63" />
-      <dependency id="nanoFramework.ResourceManager" version="1.2.13" />
-      <dependency id="nanoFramework.Runtime.Events" version="1.11.6" />
-      <dependency id="nanoFramework.System.Collections" version="1.5.18" />
-      <dependency id="nanoFramework.System.Device.Wifi" version="1.5.65" />
-      <dependency id="nanoFramework.System.IO.FileSystem" version="1.1.23" />
-      <dependency id="nanoFramework.System.IO.Streams" version="1.1.38" />
-      <dependency id="nanoFramework.System.Net" version="1.10.62" />
-      <dependency id="nanoFramework.System.Net.Http" version="1.5.106" />
-      <dependency id="nanoFramework.System.Text" version="1.2.37" />
-      <dependency id="nanoFramework.System.Threading" version="1.1.19" />
+      <dependency id="MakoIoT.Device.Platform.Interface" version="1.0.5.23338" />
+      <dependency id="MakoIoT.Device.Services.Configuration" version="1.0.32.19851" />
+      <dependency id="MakoIoT.Device.Services.Configuration.Metadata" version="1.0.35.8833" />
+      <dependency id="MakoIoT.Device.Services.ConfigurationManager" version="1.0.51.45504" />
+      <dependency id="MakoIoT.Device.Services.FileStorage" version="1.0.35.13440" />
+      <dependency id="MakoIoT.Device.Services.Interface" version="1.0.40.57355" />
+      <dependency id="MakoIoT.Device.Services.Mediator" version="1.0.32.35604" />
+      <dependency id="MakoIoT.Device.Services.Server" version="1.0.39.37862" />
+      <dependency id="MakoIoT.Device.Services.WiFi" version="1.0.36.35709" />
+      <dependency id="MakoIoT.Device.Services.WiFi.AP" version="1.0.38.49935" />
+      <dependency id="MakoIoT.Device.Utilities.Invoker" version="1.0.27.50780" />
+      <dependency id="MakoIoT.Device.Utilities.String" version="1.0.33.52014" />
+      <dependency id="nanoFramework.CoreLibrary" version="1.15.5" />
+      <dependency id="nanoFramework.DependencyInjection" version="1.1.3" />
+      <dependency id="nanoFramework.Iot.Device.DhcpServer" version="1.2.407" />
+      <dependency id="nanoFramework.Json" version="2.2.103" />
+      <dependency id="nanoFramework.Logging" version="1.1.74" />
+      <dependency id="nanoFramework.ResourceManager" version="1.2.19" />
+      <dependency id="nanoFramework.Runtime.Events" version="1.11.15" />
+      <dependency id="nanoFramework.System.Collections" version="1.5.31" />
+      <dependency id="nanoFramework.System.Device.Wifi" version="1.5.71" />
+      <dependency id="nanoFramework.System.IO.FileSystem" version="1.1.30" />
+      <dependency id="nanoFramework.System.IO.Streams" version="1.1.52" />
+      <dependency id="nanoFramework.System.Net" version="1.10.64" />
+      <dependency id="nanoFramework.System.Net.Http" version="1.5.113" />
+      <dependency id="nanoFramework.System.Text" version="1.2.54" />
+      <dependency id="nanoFramework.System.Threading" version="1.1.32" />
     </dependencies>
   </metadata>
   <files>
