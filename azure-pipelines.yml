@@ -18,9 +18,9 @@ pool:
 variables:
 - group: mako-iot-github
 - name: runSettingsFile
-  value: 'Tests\SoftwareTests\MakoIoT.Device.Platform.LocalConfig.Test\nano.runsettings'
+  value: 'Tests\SoftwareTests\MakoIoT.Device.Services.Logging.Sinks.SdCard.Test\nano.runsettings'
 - name: packageName
-  value: 'MakoIoT.Device.Platform.LocalConfig'
+  value: 'MakoIoT.Device.Services.Logging.Sinks.SdCard'
 
 resources:
   repositories:
