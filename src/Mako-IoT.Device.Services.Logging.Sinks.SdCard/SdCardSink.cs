@@ -4,6 +4,7 @@ using System.Threading;
 using nanoFramework.System.IO.FileSystem;
 using System.IO;
 using System.Text;
+using nanoFramework.System.IO;
 
 namespace MakoIoT.Device.Services.Logging.Sinks.SdCard
 {
@@ -93,13 +94,13 @@ namespace MakoIoT.Device.Services.Logging.Sinks.SdCard
             }
         }
 
-        private void StorageEventManager_RemovableDeviceRemoved(object sender, RemovableDeviceEventArgs e)
+        private void StorageEventManager_RemovableDeviceRemoved(object sender, RemovableDriveEventArgs e)
         {
             cardReady = false;
             UnMountIfMounted();
         }
 
-        private void StorageEventManager_RemovableDeviceInserted(object sender, RemovableDeviceEventArgs e)
+        private void StorageEventManager_RemovableDeviceInserted(object sender, RemovableDriveEventArgs e)
         {
             UnMountIfMounted();
             MountMyCard(false);
