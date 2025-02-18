@@ -1,4 +1,5 @@
 ﻿
+using nanoFramework.System.IO.FileSystem;
 using static nanoFramework.System.IO.FileSystem.SDCard;
 
 namespace MakoIoT.Device.Services.Logging.Sinks.SdCard
